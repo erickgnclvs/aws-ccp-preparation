@@ -65,7 +65,7 @@
 * [aws.amazon.com/compliance](https://aws.amazon.com/compliance)
   
 ### Security services
-* Identity and Access Management - **IAM**
+#### Identity and Access Management - **IAM**
   * Free
   * Manage access to services and resources with granular permission sets
   * Set access permissions for users or other services to a resource
@@ -73,13 +73,13 @@
   * Don't manage permissions manually, avoid inconsistencies
   * Use identity federation for existing users in non-AWS services
     
-* Web Application Firewall - **WAF**
+#### Web Application Firewall - **WAF**
   * Firewall for web applications
   * Protects from common web exploits thus can protect AWS usage bill
   * Improve traffic visibility
   * Can be deployed in minutes
     
-* AWS Shield
+#### AWS Shield
   * Detection and automatic mitigation against DDoS attack
   * Standard tier:
     * Free and automatic
@@ -89,13 +89,13 @@
     * Detects and mitigates sophisticated DDoS attacks
     * Financial protection against DDoS-related resource usages
        
-* Amazon Inspector
+#### Amazon Inspector
   * Automated security assessment
   * Automatically assesses apps for exposure, vulnerabilities and derivation from best practices
   * Generate detailed reports
   * Define standards or use AWS standards
      
-* AWS Trusted Advisor
+#### AWS Trusted Advisor
   * Guides provisioning to align with AWS best practices
   * Advises how your infrastructure is or is not following AWS best practices in 5 categories:
     * Optimization
@@ -107,7 +107,70 @@
   * 7 core Trusted Advisor checks are free
   * Full Trusted Advisor checks are free with Business Support plans and above
 
-* Amazon GuardDuty
+#### Amazon GuardDuty
   * Threat detection service that monitors malicious or unauthorized behaviour 24/7
   * Identifies and prioritizes potential threats
   * Quick to deploy
+ 
+## Domain 3: Technology
+
+### Methods of deploying and operating in the AWS Cloud
+
+### AWS global infrastructure
+
+### Resources for technology support
+
+### Core services
+#### Compute
+* Amazon Elastic Compute Cloud - **EC2** (IaaS)
+  * Virtual server running on AWS
+  * Configure CPU, RAM, storage and network speed
+  * Only charged for what you use
+  * Deploy extremely scalable and reliable virtual servers in minutes 
+* Elastic Beanstalk (PaaS)
+  * Handles the deployment process
+  * Acomodate services using Java, .NET, PHP, Node.js, Python, Ruby, Go and Docker
+  * You can retain control over resources ar all times
+  * Free to use
+  * Pay only for other AWS resources consumed to deploy
+  * Automatic scales up and down
+  * Freedom to select AWS resources
+  * You can get manual access back whenever needed
+  * Provisions and operates infrastructure
+    
+* Elastic Load Balancing
+  * Automatically distributes incoming traffic across servers to avoid overloading
+  * Fault tolerant
+  * Scalable and secure
+  * Monitor health of servers
+ 
+* Lambda
+  * Runs code in response to an event
+  * Automatically runs uploaded code and scales applications
+  * Pay only for the time the code is running and each event trigger 
+  * No need to provision and maintain servers - serverless code
+
+* Lightsail
+  * Simple workloads and quick deployments
+  * Pre-configured and ready-to-use OS, web apps and development stacks
+  * Scalable
+  * Cost-effective monthly fees
+  * One-click-to-launch services
+  * Examples: Ubuntu, Windows, Wordpress, Node.js
+ 
+  
+#### Storage
+* 
+*
+
+#### Database
+*
+*
+
+#### Network and content delivery
+*
+*
+
+#### Management tools
+*
+*

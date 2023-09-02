@@ -10,6 +10,9 @@
 * [AWS Training](https://www.aws.training/)
 * [AWS Skill Builder](https://explore.skillbuilder.aws/pages/16/learner-dashboard)
 * [My Exam Guide](EXAMGUIDE.md)
+* [AWS in Plain English](https://expeditedsecurity.com/aws-in-plain-english/)
+* [13h of video about AWS CCP](https://www.exampro.co/clf-c01)
+* [Flashcards](https://www.brainscape.com/l/dashboard/aws-ccp-12178727/decks)
 
 # Study notes:
 
@@ -251,13 +254,63 @@
      
        
 #### Database
-*
-*
+* DynamoDB
+  * NoSQL database
+  * Secure, scalable, fast, flexible
+  * Serverless: dont need to provision nor manage servers
+  * Virtually unlimited storage
+  * Automatically scales tables up and down
+  * Pay for specific worload or pay for what you use
+
+* RDS
+  * Relational Database System
+  * Only pay for what you use or reserve at on-deman pricing - cheaper
+  * AWS takes care of provisioning monitoring and maintaining
+  * Highly scalable
+  * Compatible with Postgres, MySQL, MariaDB, Oracle, SQL Server, Aurora
+  * Existing databases can be migrated with AWS Database Migration Tool
+
+* Aurora
+  * **SQL** database managed by AWS RDS
+  * One of the RDBS supported by AWS RDS
+  * No administration or provisioning necessary
+  * Monitorable through AWS alerting services
+  * MySQL and PostgreSQL compatible, but **faster** and **cheaper**
+  * Database can auto scale up to 64TB per instance
+  * Hosted on distributed, fault tolerant, self healing storage systems with low latency
+  * Existing databases can be migrated with AWS Database Migration Service
+
+* Redshift
+  * Fully managed, petabyte-scale **data warehouse** service
+  * Super cheap, super fast
+  * Pay only for what you use
+  * Fully integrated with your data lakes
+  * Deploy new data warehouses in minutes
+  * Secure
+  * Data encryption on compliance with many compliance programs
 
 #### Network and content delivery
-*
-*
+* VPC
+  * asda
+  *  
+
+* CloudFront
+  * asdas
+  *  
+
+* Route 53
+  * awdas
+  * 
 
 #### Management tools
-*
-*
+* CloudFormation
+  * asdas
+  *  
+
+* CloudTrail
+  * asdasda
+  * 
+
+* CloudWatch
+  * adsasda
+  * 

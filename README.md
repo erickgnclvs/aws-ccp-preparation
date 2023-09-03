@@ -290,27 +290,67 @@
   * Data encryption on compliance with many compliance programs
 
 #### Network and content delivery
-* VPC
-  * asda
-  *  
+* Amazon Virtual Private Cloud - **VPC**
+  * Isolated section in the cloud to provision resources
+  * Flexible and secure
+  * Allow control over almost every aspect of your virtual network
+  * Automatically provisioned at AWS account signup
+  * Auto configured subnets, IP ranges, route tables and security groups
+  * VPC is like home network where the ISP is AWS and devices are AWS services
 
 * CloudFront
-  * asdas
-  *  
+  * Content Delivery Network - CDN  
+  * Make things faster
+  * Deliveries websites and applications fast
+  * Uses closest server to give the files for example cached data
+  * Scalable
+  * Automatically provisioned and managed
+  * No minimum commitment
+  * Pay as you go
 
 * Route 53
-  * awdas
-  * 
+  * Domain picker
+  * Connects user requests to infrastructure running on AWS
+  * Routes users to infrastructures outside of AWS like a DNS service
+  * Integrated with other AWS services like EC2 instances or S3 buckets
+  * Simple to set up, fast, secure, and cost-effective
+  * Charged for only what you use
+  * Automatically scale to handle large query volumes
+  * Domain registration
+  * Domain name system - DNS
+  * Health check of web apps
+  * Auto Naming for service discovery
+  * Create websites/apps with high availability
 
 #### Management tools
 * CloudFormation
-  * asdas
-  *  
+  * Recipe to build infrastructure
+  * Templates to deploy in AWS
+  * Free to use
+  * Pay for the resources only
+  * Provision multi-region multi-tier quick
+  * Through JSON or YAML files (Infrastructure as Code)
+  * Update or manage the templates (stacks) through AWS Console, CLI or SDK
+  * Version control available
 
 * CloudTrail
-  * asdasda
-  * 
+  * Logs user activity and API usage
+  * Compliance and security
+  * Provide Event history
+  * Discovery/troubleshoot security and operational issues
+  * Provide visibility into user/resource activities
+  * Automatically respond to security threats
+  * Track actions taken through Console, SDK or CLI
+  * Deliver reports to S3 buckets or CloudWatch logs and events
+  * Free review of account activities for the past 90 days
+  * Logging of data events have small fees
 
 * CloudWatch
-  * adsasda
-  * 
+  * Monitoring and management system
+  * Natively integrated with most AWS services
+  * Gain system visibility into resource utilization, app performance and operational health
+  * Get notification in real time on data, metrics and events
+  * Pay only for what you use, no upfront commitment
+  * Set alerts and automatically make changes using preconfigured triggers
+
+## Domain 4: Security

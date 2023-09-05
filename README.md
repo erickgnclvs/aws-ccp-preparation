@@ -353,4 +353,77 @@
   * Pay only for what you use, no upfront commitment
   * Set alerts and automatically make changes using preconfigured triggers
 
-## Domain 4: Security
+## Domain 4: Billing and Pricing
+### Billing concepts
+#### Billing and Cost Management Dashboard
+  * Estimate and plan your AWS costs
+  * Consolidated billing: simple accounting for multiple AWS accounts
+  * Alert when you're nearing usage thresholds
+  * Cost explorer - view as graphs
+  * Forecast based on historical usage data
+  * Generate billing reports by time, date, tags
+   
+### Types of charges
+#### Pay-as-you-go Model of Cloud Computing
+  * No huge upfront costs
+  * Billed only for the consumed resources
+  * Easily scale up or down
+
+#### Fundamental Drivers of Cost
+  * Compute
+    * Pay hourly from launch to termination
+    * EC2 - pay for time server is running
+      
+  * Storage
+    * Pay per GB of storage used
+    * S3 - upload photos and pay for storage used
+      
+  * Outbound data trasnfer
+    * Pay to transfer data out of AWS
+    * Usually no charge for data into AWS or transfering between AWS services
+   
+* Pricing Model Example: Storage Types (S3)
+  * Standard storage - $0.023 per GB
+  * Glacier storage - $0.004 per GB
+  * Glacier Deep Archive storage - $0.00099 per GB
+
+* Pricing Model Example: Data Input/Output (Aurora)
+  *  Data in/Data out - $0.20 per 1 million requests
+
+### Consolidated billing
+#### AWS Consolidated Billing
+* Create a payer account to view and pay combined billing charges from linked accounts in an organization
+* Independent, but can't use any other services
+* Cannot deploy services into the linked accounts
+* All resource usage becomes consolidated as usage from one large entity - may be eligible for volume discounts
+* Free
+
+### Cost calculators
+* How much does it cost?
+#### AWS Total Cost of Ownership (TCO) Calculator
+* Get reports on estimated savings from moving on-premises IT infrastructure onto AWS Cloud
+* Total Cost of Ownership includes upfront hardware/infrastructure costs and maintenance costs
+* TCO can be reduced by moving to the cloud because no upfront infrastructe purchases
+
+#### AWS Pricing Calculator
+* Estimate cost of a cloud architecture solution you want to build
+* Add services to the calculater to get a report of estimated costs per service, service group and infrastructure
+* Compare service costs per region, reduce EC2 spend, find right EC2 instance to fit your needs, or estimate overall AWS cloud spend
+
+#### AWS Cost Explorer - part of Billing and Cost Management Console
+* View and analise usage
+* Get recommendations on how to spend less
+* Predict how much you are going to spend
+
+### AWS Free Tier
+* Always free
+  * Always free, like DynamoDB with 25gb of storage or Lambda with 1 million requests
+
+* 12 months
+  * 12 months free, like EC2 750 hours or Amazon S3 5gb
+
+* Trials
+  * Short term trial offers
+    
+### Support Plans
+

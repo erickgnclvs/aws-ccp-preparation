@@ -69,6 +69,9 @@
   
 ### Security services
 #### Identity and Access Management - **IAM**
+> Should have been called Users, Keys and Certs
+
+> Use this to: Set up additional users, set up new AWS Keys and policies.
   * Free
   * Manage access to services and resources with granular permission sets
   * Set access permissions for users or other services to a resource
@@ -77,6 +80,9 @@
   * Use identity federation for existing users in non-AWS services
     
 #### Web Application Firewall - **WAF**
+ > Should have been called AWS Firewall
+
+ > Use this to: Block bad requests to Cloudfront protected sites (aka stop people trying 10,000 passwords against /wp-admin) 
   * Firewall for web applications
   * Protects from common web exploits thus can protect AWS usage bill
   * Improve traffic visibility
@@ -93,12 +99,18 @@
     * Financial protection against DDoS-related resource usages
        
 #### Amazon Inspector
+  > Should have been called Amazon Auditor
+  
+  > Use this to:  Scans your AWS setup to determine if you've setup it up in an insecure way
   * Automated security assessment
   * Automatically assesses apps for exposure, vulnerabilities and derivation from best practices
   * Generate detailed reports
   * Define standards or use AWS standards
      
 #### AWS Trusted Advisor
+  > Should have been called Amazon Pennypincher
+
+  > Use this to: Find out where you're paying too much in your AWS setup (unused EC2 instances, etc.).
   * Guides provisioning to align with AWS best practices
   * Advises how your infrastructure is or is not following AWS best practices in 5 categories:
     * Optimization
@@ -145,12 +157,17 @@
 ### Core services
 #### Compute
 * Amazon Elastic Compute Cloud - **EC2** (IaaS)
+  > Should have been called Amazon Virtual Servers
+  
+  > Use this to: Host the bits of things you think of as a computer.
   * Virtual server running on AWS
   * Configure CPU, RAM, storage and network speed
   * Only charged for what you use
   * Deploy extremely scalable and reliable virtual servers in minutes
     
 * Elastic Beanstalk (PaaS / Infrastructure as Code)
+  > Should have been called Amazon Platform as a Service
+  > Use this to: Move your app hosted on Heroku to AWS when it gets too expensive.
   * Handles the deployment process
   * Acomodate services using Java, .NET, PHP, Node.js, Python, Ruby, Go and Docker
   * You can retain control over resources ar all times
@@ -168,6 +185,10 @@
   * Monitor health of servers
  
 * Lambda (Infrastructure as Code)
+  > Should have been called AWS App Scripts
+  
+  > Use this to: Run little self contained snippets of JS, Java or Python to do discrete tasks. Sort of a combination of a queue and execution in one. Used for storing and then executing changes to your AWS setup or responding to events in S3 or DynamoDB.
+
   * Runs code in response to an event
   * Automatically runs uploaded code and scales applications
   * Pay only for the time the code is running and each event trigger 
@@ -188,6 +209,9 @@
 
 #### Storage
 * AWS S3
+ > Should have been called Amazon Unlimited FTP Server
+ 
+ > Use this to: Store images and other assets for websites. Keep backups and share files between services. Host static websites. Also, many of the other AWS services write and read from S3.
   * Store each file as an entity (object)
   * High availability, security, performance and scalability
   * 99,9999999% durable (0,0000001% of chance of corrupting data)
@@ -215,6 +239,9 @@
   * Exist independently of EC2 so can be moved around like an HD
 
 * AWS Snowball
+  > Should have been called AWS Big Old Portable Storage
+  
+  > Use this to: Get a bunch of hard drives you can attach to your network to make getting large amounts (Terabytes of Data) into and out of AWS
   * Upload big data to AWS
   * Data migration tool - they send you a huge data traveler and you send them back
   * Physical device
@@ -255,6 +282,10 @@
        
 #### Database
 * DynamoDB
+  > Should have been called Amazon NoSQL
+  
+  > Use this to: Be your app's massively scalable key valueish store.
+  
   * NoSQL database
   * Secure, scalable, fast, flexible
   * Serverless: dont need to provision nor manage servers
@@ -263,6 +294,10 @@
   * Pay for specific worload or pay for what you use
 
 * RDS
+  > Should have been called Amazon SQL
+  
+  > Use this to: Be your app's Mysql, Postgres, and Oracle database.
+  
   * Relational Database System
   * Only pay for what you use or reserve at on-deman pricing - cheaper
   * AWS takes care of provisioning monitoring and maintaining
@@ -281,6 +316,9 @@
   * Existing databases can be migrated with AWS Database Migration Service
 
 * Redshift
+  > Should have been called Amazon Data Warehouse
+  
+  > Use this to: Store a whole bunch of analytics data, do some processing, and dump it out.
   * Fully managed, petabyte-scale **data warehouse** service
   * Super cheap, super fast
   * Pay only for what you use
@@ -291,6 +329,9 @@
 
 #### Network and content delivery
 * Amazon Virtual Private Cloud - **VPC**
+ > Should have been called Amazon Virtual Colocated Rack
+ 
+ > Use this to: Overcome objections that "all our stuff is on the internet!" by adding an additional layer of security. Makes it appear as if all of your AWS services are on the same little network instead of being small pieces in a much bigger network.
   * Isolated section in the cloud to provision resources
   * Flexible and secure
   * Allow control over almost every aspect of your virtual network
@@ -299,6 +340,9 @@
   * VPC is like home network where the ISP is AWS and devices are AWS services
 
 * CloudFront
+  > Should have been called Amazon CDN
+  
+  > Use this to:  Make your websites load faster by spreading out static file delivery to be closer to where your users are.
   * Content Delivery Network - CDN  
   * Make things faster
   * Deliveries websites and applications fast
@@ -309,6 +353,10 @@
   * Pay as you go
 
 * Route 53
+  > Should have been called Amazon DNS + Domains
+  
+  > Use this to: Buy a new domain and set up the DNS records for that domain.
+
   * Domain picker
   * Connects user requests to infrastructure running on AWS
   * Routes users to infrastructures outside of AWS like a DNS service
@@ -324,6 +372,9 @@
 
 #### Management tools
 * CloudFormation
+  > Should have been called Amazon Services Setup
+  
+  > Use this to:  Set up a bunch of connected AWS services in one go.
   * Recipe to build infrastructure
   * Templates to deploy in AWS
   * Free to use
@@ -334,6 +385,9 @@
   * Version control available
 
 * CloudTrail
+  > Should have been called Amazon Logging
+  
+  > Use this to: Log who is doing what in your AWS stack (API calls).
   * Logs user activity and API usage
   * Compliance and security
   * Provide Event history
@@ -346,6 +400,9 @@
   * Logging of data events have small fees
 
 * CloudWatch
+  > Should have been called Amazon Status Pager
+  
+  > Use this to: Get alerts about AWS services messing up or disconnecting.
   * Monitoring and management system
   * Natively integrated with most AWS services
   * Gain system visibility into resource utilization, app performance and operational health

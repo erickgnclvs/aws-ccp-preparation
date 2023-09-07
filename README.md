@@ -355,7 +355,7 @@
 
 ## Domain 4: Billing and Pricing
 ### Billing concepts
-#### Billing and Cost Management Dashboard
+#### AWS Billing and Cost Management Dashboard
   * Estimate and plan your AWS costs
   * Consolidated billing: simple accounting for multiple AWS accounts
   * Alert when you're nearing usage thresholds
@@ -370,6 +370,8 @@
   * Easily scale up or down
 
 #### Fundamental Drivers of Cost
+> The more you do something (compute, store, transfer data) the cheaper per unit the action becomes
+
   * Compute
     * Pay hourly from launch to termination
     * EC2 - pay for time server is running
@@ -426,4 +428,47 @@
   * Short term trial offers
     
 ### Support Plans
+#### Basic Support Plan
+* Free
+* Goes well with AWS Free Tier
+* No tech support
+* Access to community forums
+* Customer service limited to account and billing questions
+* Seven core Trusted Advistor checks
+* AWS Personal Health Dashboard
+
+#### Developer Support Plan
+* Cost: 29$/month or 3% of monthly AWS usage bill (whichever is higher)
+* One primary contact to submit tech support requests
+* Unlimited number of cases
+* Technicians will responde during business hours via email
+* Service-level agreement (SLA) for response: 12 hours for impaired system, 24 hours for general guidance
+
+#### Business Support Plan
+* Cost: 100$/month or 3-10% of monthly AWS usage bill (whichever is higher)
+* Unlimited number of contacts can open unlimited number of support cases
+* Access to AWS Support API for suppor case automation
+  * Retrieve detailed information about support operations and data types in JSON format
+* Full access to AWS Trusted Advisor checks
+* Can retrieve Trusted Advisor check data through AWS Support API
+* Access to Infrastructure Event Management (extra fees)
+* Third-party application integration support
+* SLA: 24/7 via phone, email and chat
+* One-hour response time urgent support cases when production system is down
+
+#### Enterprise On-Ramp Support Plan
+* Cost: 5500$/month or 10% of monthly AWS usage bill (whichever is higher)
+* Consultative application architecture guidance on how AWS resources can meet unique use case
+* Short-term engagement with AWS Support for architectural and scaling guidance for Infrastructure Event Management
+* Access to pool of Technical Account Managers (TAMs) and Concierge Support Team
+* Access to management business reviews
+* SLA: 24/7 suppor via phone, email and chat
+* 30-minute response time urgent support cases when production system is down
+
+#### Enterprise Support Plan
+* Cost: 15000$/month or 10% of monthly AWS usage bill (whichever is higher)
+* SLA: 24/7 support via phone, email and chat
+* 15-minute response time urgent support cases when production system is down
+* TAMs and Concierge
+* Free proactive maintenance programs, well-architected reviews and trainings
 

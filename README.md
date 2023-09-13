@@ -13,6 +13,7 @@
 * [AWS in Plain English](https://expeditedsecurity.com/aws-in-plain-english/)
 * [13h of video about AWS CCP](https://www.exampro.co/clf-c01)
 * [Flashcards](https://www.brainscape.com/l/dashboard/aws-ccp-12178727/decks)
+* [Bunch of questions](https://www.examtopics.com/exams/amazon/aws-certified-cloud-practitioner/view/)
 
 # Study notes:
 
